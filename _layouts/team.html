@@ -7,13 +7,13 @@ layout: page
         <p>{{site.data.team.description}}</p>
     </div>
 </div>
-<div class="row">
+<div class="row row-cols-1 row-cols-lg-2 g-3">
     {% for member in site.data.team.members %}
     <div class="col">
         <div class="p-3 bg-danger rounded">
             <div class="row mb-2 d-flex align-items-center">
                 <div class="col-4">
-                    <img src="{{'assets/img/ceo.jpg' | relative_url}}" class="img-fluid">
+                    <img src="{{'assets/img/ceo.jpg' | relative_url}}" class="img-fluid team-member">
                 </div>
                 <div class="col-8">
                     <h3 class="ff-serif text-danger">{{member.name}}</h3>

@@ -32,8 +32,10 @@ layout: default
     document.addEventListener('DOMContentLoaded', () => {
         const imgs = document.querySelectorAll('img')
         imgs.forEach(img => {
-            img.classList.add('img-fluid')
-            img.classList.add('rounded')
+            if (!img.classList.contains('team-member')) {
+                img.classList.add('img-fluid')
+                img.classList.add('rounded')
+            }
         })
     })
 </script>

@@ -13,3 +13,8 @@ body {
 .logo {
   max-width: 128px;
 }
+
+.team-member {
+  aspect-ratio: auto 90/90;
+  border-radius: 50%;
+}
