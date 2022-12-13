@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=IBM+Plex+Sans:wght@400;700&display=swap');
+html,
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+.ff-serif {
+  font-family: 'Playfair Display', serif;
+}
+.hero {
+  padding-top: 10em;
+  padding-bottom: 10em;
+}
+.bg-danger {
+  background-color: #fff6f8 !important;
+}
