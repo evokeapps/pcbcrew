@@ -2,7 +2,13 @@ description: Imagine a world where you can get the highest quality PCBs at the m
 members:
   - name: Peter Van Eijk
     designation: CEO
+    link:
+      title: LinkedIn
+      url: '#'
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magn...
   - name: Sage Kirk
     designation: CTO
+    link:
+      title: LinkedIn
+      url: '#'
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magn...
