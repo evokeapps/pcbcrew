@@ -1,0 +1,26 @@
+---
+layout: page
+---
+<div class="row">
+    <div class="col">
+        <h1>{{page.title}}</h1>
+        <p>{{site.data.team.description}}</p>
+    </div>
+</div>
+<div class="row">
+    {% for member in site.data.team.members %}
+    <div class="col">
+        <div class="p-3 bg-danger rounded">
+            <div class="row">
+                <div class="col-4">
+                    <img src="{{'assets/img/ceo.jpg' | relative_url}}" class="img-fluid">
+                </div>
+                <div class="col-8">
+                    <h3 class="ff-serif text-danger">{{member.name}}</h3>
+                    <strong>{{member.designation}}</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>

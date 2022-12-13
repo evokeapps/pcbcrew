@@ -6,10 +6,10 @@ body {
 .ff-serif {
   font-family: 'Playfair Display', serif;
 }
-.hero {
-  padding-top: 10em;
-  padding-bottom: 10em;
-}
 .bg-danger {
   background-color: #fff6f8 !important;
+}
+
+.logo {
+  max-width: 128px;
 }
